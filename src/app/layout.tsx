@@ -4,7 +4,7 @@ import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  subsets: ["latin"] ['lastIndexOf'],
 });
 
 const geistMono = Geist_Mono({
@@ -30,5 +30,7 @@ export default function RootLayout({
         {children}
       </body>
     </html>
+
+
   );
 }
